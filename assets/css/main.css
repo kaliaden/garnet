@@ -1,0 +1,16 @@
+@import url("../fonts/fonts.css");
+
+body {
+    background-color: lightcoral;
+    }
+
+.logo {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    font-family: averta;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+    }
