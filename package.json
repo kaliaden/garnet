@@ -1,0 +1,22 @@
+{
+  "name": "garnet",
+  "version": "1.0.0",
+  "description": "my first electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaliaden/garnet.git"
+  },
+  "author": "Hans Kaliaden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaliaden/garnet/issues"
+  },
+  "homepage": "https://github.com/kaliaden/garnet#readme",
+  "devDependencies": {
+    "electron": "^8.1.1"
+  }
+}
