@@ -1,16 +1,42 @@
 @import url("../fonts/fonts.css");
 
-body {
-    background-color: lightcoral;
-    }
-
-.logo {
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    padding: 10px;
+.main {
+    background-color: rgb(204, 67, 67);
+    color: white;
     font-family: averta;
     font-weight: bold;
-    color: white;
     font-size: large;
-    }
+    text-align: left;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    margin-left: 33%; /* Same as the width of the sidenav */
+}
+  
+  .sidenav {
+    height: 100%;
+    width: 33%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  

@@ -5,7 +5,7 @@ function createWindow () {
   // Create the browser window.
   const win = new BrowserWindow({
     width: 1000,
-    height: 600,
+    height: 750,
     webPreferences: {
       nodeIntegration: true
     }
@@ -15,7 +15,7 @@ function createWindow () {
   win.loadFile('src/index.html')
 
   // Open the DevTools.
-  win.webContents.openDevTools()
+  //win.webContents.openDevTools()
 
   var menu = Menu.buildFromTemplate(
     [
